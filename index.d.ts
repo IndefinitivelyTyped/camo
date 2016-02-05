@@ -1,8 +1,8 @@
-import { connect } from './db'
-import { getClient } from './clients'
+import { connect } from './lib/db'
+import { getClient } from './lib/clients'
 
-import Document = require('./document')
-import EmbeddedDocument = require('./embedded-document')
+import Document = require('./lib/document')
+import EmbeddedDocument = require('./lib/embedded-document')
 
 export {
     connect,
